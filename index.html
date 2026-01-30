@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE1.05 - Site planètes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Les planètes du système solaire</h1>
+        <p>L’espace et le système solaire suscitent une curiosité grandissante. L’immensité de l’Univers, les connaissances acquises aujourd’hui et les nombreux éléments encore inconnus éveillent l’intérêt. On ne sait pas ce que l’on pourra découvrir demain : l’espace est plein de surprises et les scientifiques travaillent chaque jour pour nous permettre d’en apprendre davantage. Ces questions sur le monde dans lequel nous vivons sont à la fois importantes et passionnantes.</p>
+    </header>
+    
+    <main>
+    <div class="popup popup-invisible">
+        <span class="fermer-popup">x</span>
+        <img class="image-zoom" src="" alt="">
+        <h3 class="titre-zoom"></h3>
+        <div class="cache-fenetre"></div>
+    </div>
+
+        <section id="presentation">
+            <div class="planetes"></div>
+        </section>  
+
+        <section id="galerie"> <div class="liste-planetes"></div> </section>
+
+    <section id="form">
+    <h2>Contribuer</h2>
+    <form id="formContrib">
+        <p><input type="url" id="urlImage" placeholder="URL de l'image" style="width:100%;padding:10px;" required></p>
+        <p><textarea id="texteImage" placeholder="Description + passion" style="width:100%;padding:10px;height:100px;" required></textarea></p>
+        <p><button type="submit">Prévisualiser</button></p>
+    </form>
+    
+        <div id="zonePreview" style="display:none;margin-top:20px;"></div>
+    </section>
+    </main>
+
+    <footer>
+        <a href="mentions-legales.html" id="mentions-legales">Mentions légales</a>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
