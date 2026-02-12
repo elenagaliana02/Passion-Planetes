@@ -1,20 +1,8 @@
-**Pour héberger le site sur un serveur O2switch :** 
+Site web sur ma passion des planètes du système solaire : 
 
-Je suis entré dans Filezilla, j’ai ensuite fait “Nouveau site”. 
+C'est un site web qui contient des informations sur les planètes du système solaire et pourquoi je les aime bien. Il y a également un formulaire pour participer au site web en ajoutant une planète que l'on apprécie et disant pourquoi avec une prévisualisation disponible.
 
-Puis j’ai mis le protocole FTP, après j’ai mis ça “galiana.projetsmmichamps.fr/sae105” pour l’hôte, j’ai ensuite mis une connexion FTP explicite sur TLS si disponible. 
+Pour voir le site : url
 
-En type d’authentification j’ai mis Normale, puis Utilisateur : galiana et mot de passe : u6pMf37wy2LHMFJ
-
-
-Puis j’ai fait “connexion” et j’ai coché sauvegarder les mots de passe. 
-
-Je vais ensuite dans public\_html et j’ai glissé mon dossier.
-
-
-
-Eléna Galiana \-TPD
-
-
-
-Un site web sur les planètes qui montrent ma passion pour les planètes. 
+J'ai utilisé du HTML, CSS et Javascript pour pouvoir faire ce site.
+J'ai mis toutes les polices dans un dossier fonts, le styles dans un dossier css, les images dans un dossier img et les fichiers javascript dans un dossier js. Pour le reste, les fichiers html sont directement à la racine avec le README et un lien vers un tableau Opquast. 
